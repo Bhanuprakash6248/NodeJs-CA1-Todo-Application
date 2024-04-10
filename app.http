@@ -26,7 +26,7 @@ GET http://localhost:3000/todos/?category=LEARNING&priority=HIGH
 
 ###
 
-GET http://localhost:3000/todos/1/
+GET http://localhost:3000/todos/2/
 
 ###
 
@@ -38,7 +38,11 @@ PUT http://localhost:3000/todos/2/
 Content-Type : Application/json
 
 {
-  "status": "DONE"
+  "status": "TO DO"
 }
+
+###
+
+DELETE http://localhost:3000/todos/3/
 
 ###
